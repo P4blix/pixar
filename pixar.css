@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; 
+}
+
+li{
+  list-style: none;
+}
+a{
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cabecera {
+    width: 100%;
+    min-height: 80px;
+    background-color: white;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    .cabecera-icono{
+      width: fit-content;
+      min-height: auto;
+      margin-left: 30px;
+      padding: 10px;
+      background-color: yellow;
+      }
+    .cabecera-menu{
+      background-color: orange;
+      margin-right: 30px;
+
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: end;
+      align-items: start;
+
+
+      .menu-enlaces{
+        width: fit-content;
+        min-height: auto;
+        margin: 0 10px 0 0;
+        background-color: red;
+
+      }
+    }
+}
+
+.imagen {
+    width: 100%;
+    min-height: 40vh;
+    background-color: mediumorchid;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .imagen-texto{
+      width: fit-content;
+      min-height: auto;
+      padding: 10px;
+      background-color:yellow;
+
+    }
+  }
+.galeria {
+    width: 100%;
+    min-height: 80px;
+    background-color: aquamarine;
+    margin: 60px 30px;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    .galeria-container{
+      width: 200px;
+      min-height: 150px;
+      margin-right: 10px;
+      background-color:yellow;
+
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: start;
+      align-items: center;
+      gap: 10px;
+      
+      .galeria-container-foto{
+        width: 100%;
+        min-height: 200px;
+        background-color: red; 
+      }
+      .galeria-container-texto{
+        width: fit-content;
+        /*align-self: end;*/
+
+      }
+    }
+  }
+
+  .redessociales {
+    width: 300px;
+    min-height: 80px;
+    background-color:aquamarine;
+    margin: 10px;
+    
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: center;
+    align-items: center;
+    
+    .redessociales-link{
+      width: fit-content;
+      min-height: auto;
+      background-color: yellow;
+      margin: 0 10px 0 0;     
+    }
+}
+ 
+.politicas {
+    width: 50vw;
+    min-height: 80px;
+    background-color: violet;
+   
+    
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+      .politicas-link{
+      width: 50%;
+      min-height: auto;
+      background-color:yellow;
+      }
+}
+
